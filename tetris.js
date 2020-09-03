@@ -1,4 +1,3 @@
-function TETRISGAME(){
 const cvs=document.getElementById('canvas')
 const ctx=cvs.getContext("2d")
 const Q=30
@@ -496,4 +495,3 @@ function drop(){
 }
 
 drop();
-}
